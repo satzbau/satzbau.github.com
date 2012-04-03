@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://satzbau.github.com/atom.xml" rel="self"/>
   <link href="http://satzbau.github.com/"/>
-  <updated>2012-04-03T21:24:12+04:00</updated>
+  <updated>2012-04-03T21:29:59+04:00</updated>
   <id>http://satzbau.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -23,7 +23,7 @@
 <p>Here is Amy waiting for the light to change so we can walk across the street.</p>
 
 <!-- more --!>
-![alt Amy waiting](/images/amysmall.jpg &#8220;Amy Waiting&#8221;)
+<img="/images/amysmall.jpg">
 
 What ever.
 
