@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://satzbau.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Amy | My Octopress Blog]]></title>
+  <link href="http://satzbau.github.com/blog/categories/amy/atom.xml" rel="self"/>
   <link href="http://satzbau.github.com/"/>
   <updated>2012-04-03T21:24:12+04:00</updated>
   <id>http://satzbau.github.com/</id>
@@ -23,7 +23,7 @@
 <p>Here is Amy waiting for the light to change so we can walk across the street.</p>
 
 <!-- more --!>
-![alt Amy waiting](/images/amysmall.jpg &#8220;Amy Waiting&#8221;)
+![alt Amy waiting](/images/amysmall.jpg "Amy Waiting")
 
 What ever.
 
