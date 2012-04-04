@@ -4,7 +4,7 @@
   <title><![CDATA[The Starter]]></title>
   <link href="http://satzbau.github.com/atom.xml" rel="self"/>
   <link href="http://satzbau.github.com/"/>
-  <updated>2012-04-04T09:49:37+04:00</updated>
+  <updated>2012-04-04T09:56:34+04:00</updated>
   <id>http://satzbau.github.com/</id>
   <author>
     <name><![CDATA[satzbau]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[here are some pictures]]></title>
+    <link href="http://satzbau.github.com/blog/2012/04/04/here-are-some-pictures/"/>
+    <updated>2012-04-04T09:53:00+04:00</updated>
+    <id>http://satzbau.github.com/blog/2012/04/04/here-are-some-pictures</id>
+    <content type="html"><![CDATA[<p>Here are some pictures</p>
+
+<script>
+        window.addEvent('domready', function(){
+            var data = { '1.jpg': { caption: '1' }, '2.jpg': { caption: '2' }, '3.jpg': { caption: '3' }, '4.jpg': { caption: '4' }};
+
+            new Slideshow('overlap', data, { captions: { delay: 1000 }, delay: 3000, height: 300, hu: 'images/', width: 400 });
+            new Slideshow('noOverlap', data, { height: 300, hu: 'images/', overlap: false, resize: 'fit', width: 400 });
+            new Slideshow.Flash('flash', data, { color: ['tomato', 'palegreen', 'orangered', 'aquamarine'], height: 300, hu: 'images/', width: 400 });
+            new Slideshow.Fold('fold', data, { height: 300, hu: 'images/', width: 400 });
+            new Slideshow.KenBurns('kenburns', data, { duration: 1500, height: 300, hu: 'images/', width: 400 });
+            new Slideshow.Push('push', data, { height: 300, hu: 'images/', transition: 'back:in:out', width: 400 });
+        });
+    </script>
+
+
+<div id="overlap" class="slideshow">
+        <img src="images/1.jpg" alt="1">
+    </div>
+
+
+<pre><code>&lt;div id="noOverlap" class="slideshow"&gt;
+    &lt;img src="images/1.jpg" alt="1"&gt;
+&lt;/div&gt;
+
+&lt;div id="flash" class="slideshow"&gt;
+    &lt;img src="images/1.jpg" alt="1"&gt;
+&lt;/div&gt;
+
+&lt;div id="fold" class="slideshow"&gt;
+    &lt;img src="images/1.jpg" alt="1"&gt;
+&lt;/div&gt;
+
+&lt;div id="kenburns" class="slideshow"&gt;
+    &lt;img src="images/1.jpg" alt="1"&gt;
+&lt;/div&gt;
+
+&lt;div id="push" class="slideshow"&gt;
+    &lt;img src="images/1.jpg" alt="1"&gt;
+&lt;/div&gt;  
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Here is Amy]]></title>
