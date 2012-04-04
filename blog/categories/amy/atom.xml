@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Amy | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Amy | The Starter]]></title>
   <link href="http://satzbau.github.com/blog/categories/amy/atom.xml" rel="self"/>
   <link href="http://satzbau.github.com/"/>
-  <updated>2012-04-03T21:36:25+04:00</updated>
+  <updated>2012-04-04T09:32:19+04:00</updated>
   <id>http://satzbau.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
